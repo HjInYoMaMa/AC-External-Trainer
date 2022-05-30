@@ -13,7 +13,7 @@ int main()
     uintptr_t moduleBase = 0, localPlayerPtr = 0, healthAddr = 0;
     bool bHealth = false, bAmmo = false, bRecoil = false;
 
-    const int newValue = 1337; //Ammo amount if we press f1
+    const int newValue = 1337; //Health amount if we press f1
 
     //Getting procid of the process
     DWORD procId = GetProcId(L"ac_client.exe");
