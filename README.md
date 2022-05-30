@@ -8,6 +8,7 @@ This is basic external trainer for game called AssaultCube.
 - Grenade Hack
 - Armor Hack
 - Speedhack
+- RapidFire
 
 ## ☂️ Features
 - Health Hack aka GodMode
