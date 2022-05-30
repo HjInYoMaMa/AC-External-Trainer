@@ -22,6 +22,7 @@ Only for educational purposes, I'm not responsible for anything that happens whe
 
 All repository's what are for game called AssaultCube, using AssaultCube v1.2.0.2 Version of the game
 Link: https://github.com/assaultcube/AC/releases/tag/v1.2.0.2
-If u use this somewhere give me credit.
+
+If u use my source please give credits :)
 
 - Made by hj.#0010
