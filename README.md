@@ -18,6 +18,7 @@ This is basic external trainer for game called AssaultCube.
 - Grenade Hack
 - Speedhack
 - RapidFire
+- Armor Hack
 ## 🌠 Usage
 - Clone repository
 - Make sure to use x86 `Release || Debug`
