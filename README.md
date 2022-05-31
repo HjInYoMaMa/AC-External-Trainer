@@ -5,10 +5,10 @@ This is basic external trainer for game called AssaultCube.
 
 `To Come:`
 
-- Grenade Hack
-- Armor Hack
-- Speedhack
-- RapidFire
+- G̶r̶e̶n̶a̶d̶e̶ ̶H̶a̶c̶k
+̶- A̶r̶m̶o̶r̶ ̶H̶a̶c̶k
+̶- S̶p̶e̶e̶d̶h̶a̶c̶k
+̶- R̶a̶p̶i̶d̶F̶i̶r̶e
 
 ## ☂️ Features
 - Health Hack aka GodMode
