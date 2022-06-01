@@ -9,7 +9,7 @@ This is basic external trainer for game called AssaultCube.
 - Armor Hack - Done
 - Speedhack - Done
 - RapidFire - Done
-- Better style for console
+- Better style for console - Done
 
 ## ☂️ Features
 - Health Hack aka GodMode
