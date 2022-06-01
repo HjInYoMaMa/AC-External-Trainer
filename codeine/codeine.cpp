@@ -4,6 +4,8 @@
 #include <Windows.h>
 #include "proc.h"
 #include "mem.h"
+#include "Console.h"
+namespace con = JadedHoboConsole;
 
 int main()
 {
@@ -39,16 +41,37 @@ int main()
         grenadeAddr = FindDMAddy(hProcess, localPlayerPtr, { 0x158 });
         armorAddr = FindDMAddy(hProcess, localPlayerPtr, { 0x0FC });
         //What prints to our console if process is found :)
-        std::cout << "F1 - Health hack\n";
-        std::cout << "F2 - Gun Ammo hack [Increases]\n";
-        std::cout << "F3 - No recoil hack\n";
-        std::cout << "F4 - Speedhack\n";
-        std::cout << "F5 - RapidFire\n";
-        std::cout << "F6 - Grenade Hack\n";
-        std::cout << "F7 - Armor Hack\n\n";
+
+        std::cout << con::fg_magenta << R"(
+                 ____ 
+                /        \ _ 
+                \x    .-~_ )_ 
+                  \~x".-~   ~-. 
+              _   (  /              \     _ 
+              ||    T   o   o       Y   || 
+          ==:l    l     <           !    I;== 
+               \\    \   .__/       /    // 
+                \\  ,r"-,___.---,,.,   // 
+                 }^ \ , ( )     _-'     //. 
+                /     }~X---~       //  \ 
+              Y    Y  I  \   \     "     Y 
+              |      |   | o \   \           | 
+              |      l__l    Y  T          | 
+              l      """" o  l__j          ! 
+               \              """""        / 
+      ___,.---^.        o              .^---.._____   
+
+)" << '\n';
+        std::cout << con::fg_white << "[" << con::fg_green << "F1" << con::fg_white << "]" << con::fg_magenta << " Health Hack\n" << con::fg_white;
+        std::cout << "[" << con::fg_green << "F2" << con::fg_white << "]" << con::fg_magenta << " Gun Ammo Hack\n" << con::fg_white;
+        std::cout << "[" << con::fg_green << "F3" << con::fg_white << "]" << con::fg_magenta << " No Recoil Hack\n" << con::fg_white;
+        std::cout << "[" << con::fg_green << "F4" << con::fg_white << "]" << con::fg_magenta << " SpeedHack\n" << con::fg_white;
+        std::cout << "[" << con::fg_green << "F5" << con::fg_white << "]" << con::fg_magenta << " RapidFire\n" << con::fg_white;
+        std::cout << "[" << con::fg_green << "F6" << con::fg_white << "]" << con::fg_magenta << " Grenade Hack\n" << con::fg_white;
+        std::cout << "[" << con::fg_green << "F7" << con::fg_white << "]" << con::fg_magenta << " Armor Hack\n\n" << con::fg_white;
             
-        std::cout << "Build: 31 May\n";
-        std::cout << "Made by hj.#0010\n";
+        std::cout << "[" << con::fg_green << "+" << con::fg_white << "]" << con::fg_magenta << " Build: May 31\n" << con::fg_white;
+        std::cout << "[" << con::fg_green << "+" << con::fg_white << "]" << con::fg_magenta << " Made by hj.#0010\n" << con::fg_white;
     }
     else
     {
